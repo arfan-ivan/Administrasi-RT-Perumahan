@@ -94,6 +94,14 @@ Pastikan kamu sudah meng-install:
 
    API backend akan berjalan di: http://localhost:8000
 
+jangan lupa untuk menjalankan perintah Berikut untuk Mengizinkan Browser bisa Mengakses Gambar dari Laravel
+
+    php artisan storage:link
+
+Perintah ini akan membuat folder public/storage yang mengarah ke storage/app/public
+yang akan menampilkan gambar ktp yang sudah di inputkan
+
+
 4. Instalasi Frontend
    Masuk ke folder frontend:
    
