@@ -1,12 +1,11 @@
 # Aplikasi Administrasi RT
 
-🛠️ Dibangun dengan:
+ Dibangun dengan:
 
-   React JS (Frontend)
+- Laravel 12 (REST API Backend)
+- React (Frontend)
+- MySQL (Database)
 
-   Laravel (Backend - terpisah)
-
-   MySQL (Database)
 
 Aplikasi ini merupakan bagian frontend dari sistem manajemen administrasi untuk kompleks perumahan. Sistem ini dirancang untuk membantu mengelola data penghuni, rumah, pembayaran iuran, serta menyediakan laporan pemasukan/pengeluaran per bulan dalam bentuk grafik.
 
@@ -23,7 +22,7 @@ Struktur Aplikasi
     Menyimpan seluruh data terkait penghuni, rumah, pembayaran, dan histori.
 
 # Panduan Instalasi Proyek Administrasi RT
-rasyarat
+Persyarat
 
 Pastikan kamu sudah meng-install:
 
@@ -85,10 +84,17 @@ Pastikan kamu sudah meng-install:
    Masuk ke folder frontend:
    
          cd ../frontend
-   Install dependensi frontend:
+   
+   Install dependensi React:
    
          npm install
+   
+   Jalankan React dev server:
+   
+         npm start
 
+   Frontend akan berjalan di: http://localhost:3000
+    
 
 
 
@@ -128,7 +134,7 @@ React akan mengirimkan permintaan (request) HTTP seperti GET, POST, PUT, DELETE 
 
    ![ERD](https://github.com/user-attachments/assets/6050a874-5ea0-44b4-ac3e-159197aae991)
 
-## 📌 Endpoint Backend Laravel
+##  Endpoint Backend Laravel
 
 Prefix utama: `/api/v1`
 
@@ -176,8 +182,4 @@ Prefix utama: `/api/v1`
 
 ---
 
-## ⚙️ Tech Stack
-- Laravel 12 (REST API Backend)
-- React (Frontend)
-- MySQL (Database)
 
