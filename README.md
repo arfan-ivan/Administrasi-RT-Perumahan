@@ -48,16 +48,16 @@ Pastikan kamu sudah meng-install:
 
 1. Clone Repository
 
-         git clone https://github.com/arfan-ivan/Administrasi-RT-Perumahan.git
-         cd Administrasi-RT-Perumahan
+       git clone https://github.com/arfan-ivan/Administrasi-RT-Perumahan.git
+       cd Administrasi-RT-Perumahan
 
 2. Instalasi Backend (Laravel)
    
-         cd backend
+       cd backend
 
    Install dependensi Laravel:
 
-         composer install
+       composer install
    Salin .env dari .env.example
    
        cp .env.example .env
@@ -80,30 +80,30 @@ Pastikan kamu sudah meng-install:
    
    Generate key aplikasi:
    
-         php artisan key:generate
+       php artisan key:generate
 
    Jalankan migrasi database:
 
-         php artisan migrate
+       php artisan migrate
 
    Jalankan server Laravel:
 
-         php artisan serve
+       php artisan serve
 
    API backend akan berjalan di: http://localhost:8000
 
 4. Instalasi Frontend
    Masuk ke folder frontend:
    
-         cd ../frontend
+       cd ../frontend
    
    Install dependensi React:
    
-         npm install
+       npm install
    
    Jalankan React dev server:
    
-         npm start
+       npm start
 
    Frontend akan berjalan di: http://localhost:3000
     
