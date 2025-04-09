@@ -53,6 +53,6 @@ Entitas dan Relasi Utama:
 
 
 
-   Front![ERD](https://github.com/user-attachments/assets/6050a874-5ea0-44b4-ac3e-159197aae991)
+   ![ERD](https://github.com/user-attachments/assets/6050a874-5ea0-44b4-ac3e-159197aae991)
 
 
