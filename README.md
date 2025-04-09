@@ -59,6 +59,37 @@ Pastikan kamu sudah meng-install:
    Install dependensi Laravel:
 
          composer install
+   
+   Salin file .env:
+
+         APP_URL=http://localhost:8000
+         DB_DATABASE=administrasi_rt
+         DB_USERNAME=root
+         DB_PASSWORD=          # kosongkan jika tanpa password
+   
+   Generate key aplikasi:
+   
+         php artisan key:generate
+
+   Jalankan migrasi database:
+
+         php artisan migrate
+
+   Jalankan server Laravel:
+
+         php artisan serve
+
+   API backend akan berjalan di: http://localhost:8000
+
+3. Instalasi Frontend
+   Masuk ke folder frontend:
+   
+         cd ../frontend
+   Install dependensi frontend:
+   
+         npm install
+
+
 
 
 
