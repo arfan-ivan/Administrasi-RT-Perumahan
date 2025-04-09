@@ -162,10 +162,7 @@ React akan mengirimkan permintaan (request) HTTP seperti GET, POST, PUT, DELETE 
 
 ---
 
-> Untuk kebutuhan ERD visual dan implementasi lebih lanjut (Laravel migration, seeder, dsb), silakan sesuaikan dengan struktur ini.
-
-
-
+> Gambar Visual ERD
    ![ERD](https://github.com/user-attachments/assets/6050a874-5ea0-44b4-ac3e-159197aae991)
 
 ##  Endpoint Backend Laravel
