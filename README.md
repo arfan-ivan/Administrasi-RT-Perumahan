@@ -41,9 +41,9 @@ Pastikan kamu sudah meng-install:
 
 ## Struktur Repositori
 
-Administrasi-RT-Perumahan/
-├── backend/        --> Laravel REST API
-└── frontend/       --> React
+      Administrasi-RT-Perumahan/
+      ├── backend/        --> Laravel REST API
+      └── frontend/       --> React
 
 ### Instalasi Project
 
@@ -56,7 +56,7 @@ Administrasi-RT-Perumahan/
    
          cd backend
 
-Install dependensi Laravel:
+   Install dependensi Laravel:
 
          composer install
 
