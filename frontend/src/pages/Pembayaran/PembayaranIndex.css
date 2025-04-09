@@ -1,0 +1,180 @@
+.pembayaran-container {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  }
+  
+  .pembayaran-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #3498db;
+  }
+  
+  .pembayaran-title {
+    color: #333;
+    font-size: 1.8rem;
+    margin: 0;
+  }
+  
+  .btn-tambah {
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .btn-tambah:hover {
+    background-color: #27ae60;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+    margin-bottom: 2rem;
+  }
+  
+  .pembayaran-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 0.95rem;
+  }
+  
+  .pembayaran-table thead tr {
+    background-color: #f8f9fa;
+  }
+  
+  .pembayaran-table th {
+    padding: 12px 15px;
+    border-bottom: 2px solid #ddd;
+    font-weight: 600;
+    color: #444;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+  }
+  
+  .pembayaran-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+    vertical-align: middle;
+  }
+  
+  .pembayaran-table tbody tr:hover {
+    background-color: #f5f9ff;
+  }
+  
+  .empty-data td {
+    text-align: center;
+    padding: 30px;
+    color: #888;
+    font-style: italic;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn-edit {
+    padding: 6px 12px;
+    border-radius: 4px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-edit:hover {
+    background-color: #2980b9;
+  }
+  
+  .btn-delete {
+    padding: 6px 12px;
+    border-radius: 4px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-delete:hover {
+    background-color: #c0392b;
+  }
+  
+  .status-badge {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .status-lunas {
+    background-color: #d5f5e3;
+    color: #27ae60;
+  }
+  
+  .status-belum {
+    background-color: #fadbd8;
+    color: #c0392b;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .pembayaran-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+    
+    .btn-tambah {
+      width: 100%;
+      justify-content: center;
+    }
+    
+    .pembayaran-table thead {
+      display: none;
+    }
+    
+    .pembayaran-table tbody tr {
+      display: block;
+      margin-bottom: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 0.5rem;
+    }
+    
+    .pembayaran-table td {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 10px;
+      border: none;
+      text-align: right;
+    }
+    
+    .pembayaran-table td::before {
+      content: attr(data-label);
+      font-weight: 600;
+      text-align: left;
+    }
+    
+    .action-buttons {
+      justify-content: flex-end;
+    }
+  }

@@ -1,0 +1,227 @@
+.penghuni-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .page-title {
+    color: #2c3e50;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .add-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s;
+  }
+  
+  .add-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .penghuni-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+  }
+  
+  .penghuni-table th {
+    background-color: #34495e;
+    color: white;
+    padding: 15px;
+    text-align: left;
+    font-weight: 500;
+  }
+  
+  .penghuni-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .penghuni-table tr:hover {
+    background-color: #e8f4fd;
+  }
+  
+  .penghuni-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .ktp-column {
+    text-align: center;
+    width: 120px;
+  }
+  
+  .ktp-container {
+    position: relative;
+    width: 120px;
+    height: 75px;
+    margin: 0 auto;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .ktp-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  
+  .ktp-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .ktp-overlay span {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .ktp-container:hover .ktp-overlay {
+    opacity: 1;
+  }
+  
+  .ktp-container:hover .ktp-image {
+    transform: scale(1.1);
+  }
+  
+  .no-ktp {
+    font-style: italic;
+    color: #7f8c8d;
+    font-size: 14px;
+  }
+  
+  .ktp-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .ktp-modal-content {
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 90%;
+    max-height: 90%;
+  }
+  
+  .ktp-modal-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    z-index: 1001;
+  }
+  
+  .ktp-modal-image {
+    max-width: 100%;
+    max-height: 80vh;
+    display: block;
+  }
+  
+  /* Kolom aksi */
+  .action-column {
+    white-space: nowrap;
+  }
+  
+  .edit-button {
+    padding: 6px 12px;
+    margin-right: 8px;
+    background-color: #2ecc71;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-button:hover {
+    background-color: #27ae60;
+  }
+  
+  .delete-button {
+    padding: 6px 12px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;
+  }
+  
+  @media (max-width: 768px) {
+    .header-container {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    
+    .penghuni-table th,
+    .penghuni-table td {
+      padding: 10px;
+    }
+    
+    .action-column {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    
+    .edit-button,
+    .delete-button {
+      margin: 2px 0;
+      text-align: center;
+    }
+    
+    .ktp-container {
+      width: 100px;
+      height: 60px;
+    }
+  }

@@ -1,0 +1,131 @@
+.rumah-form-container {
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rumah-form-title {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3498db;
+  }
+  
+  .rumah-active-resident {
+    background-color: #e8f5e9;
+    border-left: 4px solid #27ae60;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .rumah-active-resident strong {
+    margin-right: 10px;
+    color: #2c3e50;
+  }
+  
+  .rumah-active-resident span {
+    color: #27ae60;
+    font-weight: 500;
+  }
+  
+  .rumah-form-group {
+    margin-bottom: 20px;
+  }
+  
+  .rumah-form-label {
+    display: block;
+    margin-bottom: 6px;
+    color: #34495e;
+    font-weight: 500;
+  }
+  
+  .rumah-form-input,
+  .rumah-form-select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #cbd5e0;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+    margin-bottom: 4px;
+  }
+  
+  .rumah-form-input:focus,
+  .rumah-form-select:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+  }
+  
+  .rumah-error-message {
+    color: #e74c3c;
+    font-size: 12px;
+    margin-top: 4px;
+  }
+  
+  .rumah-form-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .rumah-form-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .rumah-form-section {
+    margin-top: 40px;
+  }
+  
+  .rumah-form-section-title {
+    font-size: 18px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .rumah-add-resident-button {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .rumah-add-resident-button:hover {
+    background-color: #219653;
+  }
+  
+  .rumah-date-input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #cbd5e0;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+  }
+  
+  .rumah-date-input:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+  }

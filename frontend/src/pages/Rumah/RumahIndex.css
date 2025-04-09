@@ -1,0 +1,136 @@
+
+.rumah-container {
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rumah-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+  }
+  
+  .rumah-title {
+    font-size: 24px;
+    color: #2c3e50;
+    margin: 0;
+  }
+  
+  .rumah-add-button {
+    background-color: #27ae60;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s;
+  }
+  
+  .rumah-add-button:hover {
+    background-color: #2ecc71;
+  }
+  
+  .rumah-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .rumah-table th {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 15px;
+    text-align: left;
+    font-weight: 500;
+  }
+  
+  .rumah-table td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .rumah-empty-message {
+    text-align: center;
+    padding: 20px;
+    color: #7f8c8d;
+  }
+  
+  .rumah-action-buttons {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .rumah-edit-button {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .rumah-edit-button:hover {
+    text-decoration: underline;
+  }
+  
+  .rumah-delete-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .rumah-delete-button:hover {
+    background-color: #c0392b;
+  }
+  
+  .rumah-penghuni-button {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .rumah-penghuni-button:hover {
+    background-color: #e67e22;
+  }
+  
+  .rumah-empty-cell {
+    color: #bdc3c7;
+    font-style: italic;
+  }
+  
+  .rumah-even-row {
+    background-color: #f5f9ff;
+  }
+  
+  .rumah-status-badge {
+    color: white;
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-size: 0.85em;
+  }
+  
+  .rumah-status-tersedia {
+    background-color: #2ecc71;
+  }
+  
+  .rumah-status-terisi {
+    background-color: #3498db;
+  }
+  
+  .rumah-status-lainnya {
+    background-color: #e74c3c;
+  }
