@@ -98,7 +98,7 @@ Pastikan kamu sudah meng-install:
    
        php artisan storage:link
    
-   Perintah ini akan membuat folder public/storage yang mengarah ke storage/app/public
+   Perintah ini akan membuat folder `public/storage` yang mengarah ke `storage/app/public`
    yang akan menampilkan gambar ktp yang sudah di inputkan
 
 
@@ -117,8 +117,6 @@ Pastikan kamu sudah meng-install:
 
    Frontend akan berjalan di: http://localhost:3000
     
-
-
 
 
 # Deskripsi Alur Sistem
