@@ -65,11 +65,11 @@ Pastikan kamu sudah meng-install:
    cari bagian ini
 
        DB_CONNECTION=sqlite
-       # DB_HOST=127.0.0.1
-       # DB_PORT=3306
-       # DB_DATABASE=laravel
-       # DB_USERNAME=root
-       # DB_PASSWORD=
+       DB_HOST=127.0.0.1
+       DB_PORT=3306
+       DB_DATABASE=laravel
+       DB_USERNAME=root
+       DB_PASSWORD=
 
    Ubah jadi seperti ini:
    
