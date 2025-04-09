@@ -64,17 +64,19 @@ Pastikan kamu sudah meng-install:
 
    cari bagian ini
 
-       APP_URL=http://localhost
-       DB_DATABASE=laravel
-       DB_USERNAME=root
-       DB_PASSWORD=
+       # DB_HOST=127.0.0.1
+       # DB_PORT=3306
+       # DB_DATABASE=laravel
+       # DB_USERNAME=root
+       # DB_PASSWORD=
 
    Ubah jadi seperti ini:
 
-         APP_URL=http://localhost:8000
-         DB_DATABASE=administrasi_rt  # Ganti jadi nama database yang kamu mau
-         DB_USERNAME=root
-         DB_PASSWORD=          # kosongkan jika tanpa password
+       DB_HOST=127.0.0.1
+       DB_PORT=3306
+       DB_DATABASE=administrasi_rt  # Ganti jadi nama database yang kamu mau
+       DB_USERNAME=root
+       DB_PASSWORD=                 # kosongkan jika tanpa password
    
    Generate key aplikasi:
    
