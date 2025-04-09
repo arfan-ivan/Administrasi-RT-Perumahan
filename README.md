@@ -64,6 +64,7 @@ Pastikan kamu sudah meng-install:
 
    cari bagian ini
 
+       DB_CONNECTION=sqlite
        # DB_HOST=127.0.0.1
        # DB_PORT=3306
        # DB_DATABASE=laravel
@@ -71,7 +72,8 @@ Pastikan kamu sudah meng-install:
        # DB_PASSWORD=
 
    Ubah jadi seperti ini:
-
+   
+       DB_CONNECTION=mysql
        DB_HOST=127.0.0.1
        DB_PORT=3306
        DB_DATABASE=administrasi_rt  # Ganti jadi nama database yang kamu mau
