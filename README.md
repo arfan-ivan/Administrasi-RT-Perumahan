@@ -135,13 +135,13 @@ React akan mengirimkan permintaan (request) HTTP seperti GET, POST, PUT, DELETE 
 ### Entitas dan Relasi Utama:
 
 1. **penghuni**  
-   Kolom: `id`, `nama_lengkap`, `foto_ktp`, `status_penghuni`, `nomor_telepon`, `status_pernikahan`
+   Kolom: `id`, `nama_lengkap`, `foto_ktp`, `status_penghuni`, `nomor_telepon`, `sudah_menikah`, `created_at`, `updated_at`
 
 2. **rumah**  
-   Kolom: `id`, `blok`, `nomor`, `status_rumah`
+   Kolom: `id`, `nomor_rumah`, `status`, `status_rumah`, `created_at`, `updated_at`
 
 3. **histori_penghuni**  
-   Kolom: `id`, `rumah_id`, `penghuni_id`, `tanggal_mulai`, `tanggal_selesai`  
+   Kolom: `id`, `rumah_id`, `penghuni_id`, `tanggal_masuk`, `tanggal_keluar`, `created_at`, `updated_at`    
    Keterangan: menyimpan catatan siapa pernah tinggal di rumah mana
 
 4. **pembayaran**  
@@ -149,7 +149,7 @@ React akan mengirimkan permintaan (request) HTTP seperti GET, POST, PUT, DELETE 
    Keterangan: mencatat semua transaksi iuran (satpam / kebersihan)
 
 5. **pengeluaran**  
-   Kolom: `id`, `tanggal`, `keterangan`, `jumlah`, `kategori`  
+   Kolom: `id`, `tanggal`, `deskripsi`, `jumlah`, `kategori`, `created_at`, `updated_at`  
    Keterangan: digunakan untuk laporan keuangan bulanan
 
 
