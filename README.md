@@ -22,6 +22,45 @@ Struktur Aplikasi
   Database (MySQL):
     Menyimpan seluruh data terkait penghuni, rumah, pembayaran, dan histori.
 
+# Panduan Instalasi Proyek Administrasi RT
+rasyarat
+
+Pastikan kamu sudah meng-install:
+
+   PHP 8.1+
+
+   Composer
+
+   Node.js v18+
+
+   npm atau yarn
+
+   MySQL
+
+   Git
+
+## Struktur Repositori
+
+Administrasi-RT-Perumahan/
+├── backend/        --> Laravel REST API
+└── frontend/       --> React
+
+### Instalasi Project
+
+1. Clone Repository
+
+         git clone https://github.com/arfan-ivan/Administrasi-RT-Perumahan.git
+         cd Administrasi-RT-Perumahan
+
+2. Instalasi Backend (Laravel)
+   
+         cd backend
+
+Install dependensi Laravel:
+
+         composer install
+
+
 
 # Deskripsi Alur Sistem
       [ React Frontend ]
