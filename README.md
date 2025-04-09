@@ -58,11 +58,21 @@ Pastikan kamu sudah meng-install:
    Install dependensi Laravel:
 
          composer install
+   Salin .env dari .env.example
    
-   Salin file .env:
+       cp .env.example .env
+
+   cari bagian ini
+
+       APP_URL=http://localhost
+       DB_DATABASE=laravel
+       DB_USERNAME=root
+       DB_PASSWORD=
+
+   Ubah jadi seperti ini:
 
          APP_URL=http://localhost:8000
-         DB_DATABASE=administrasi_rt
+         DB_DATABASE=administrasi_rt  # Ganti jadi nama database yang kamu mau
          DB_USERNAME=root
          DB_PASSWORD=          # kosongkan jika tanpa password
    
@@ -80,7 +90,7 @@ Pastikan kamu sudah meng-install:
 
    API backend akan berjalan di: http://localhost:8000
 
-3. Instalasi Frontend
+4. Instalasi Frontend
    Masuk ke folder frontend:
    
          cd ../frontend
