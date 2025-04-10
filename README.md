@@ -163,7 +163,7 @@ React akan mengirimkan permintaan (request) HTTP seperti GET, POST, PUT, DELETE 
 ---
 
 > [klik untuk melihat Visual ERD](https://dbdiagram.io/d/erd-Admin-rt-67f5bab44f7afba184dba7b0)
-  ![ERD](https://github.com/user-attachments/assets/6050a874-5ea0-44b4-ac3e-159197aae991)
+  [![ERD](https://github.com/user-attachments/assets/6050a874-5ea0-44b4-ac3e-159197aae991)](https://dbdiagram.io/d/erd-Admin-rt-67f5bab44f7afba184dba7b0)
 
 ##  Endpoint Backend Laravel
 
