@@ -26,7 +26,7 @@ Persyarat
 
 Pastikan kamu sudah meng-install:
 
-   PHP 8.1+
+   PHP 8.2+
 
    Composer
 
